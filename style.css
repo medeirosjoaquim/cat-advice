@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap");
+@import url("./reset.css");
+.title {
+  width: 100%;
+  font-size: 100px;
+  font-weight: bold;
+  color: var(--yellow);
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --light-blue: #17c3b2;
+  --light-red: fe6d73;
+  --dark-blue: #0f4c5c;
+  --dark-red: #9a031e;
+  --yellow: #ffcb77;
+}
+
+.wrapper {
+  /* https://images.unsplash.com/photo-1478098711619-5ab0b478d6e6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80 */
+  height: 100vh;
+  background: #000;
+  background-image: url("https://images.unsplash.com/photo-1478098711619-5ab0b478d6e6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib&q=80&w=600");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 160%;
+  color: var(--color-text);
+  display: flex;
+  background-position-x: 85%;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+#root {
+  margin-top: 2rem;
+  padding: 0 2rem;
+  height: 100px;
+  color: ivory;
+  font-size: 40px !important;
+  width: 320;
+}
+
+.row {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+/* media queries */
+
+@media only screen and (min-width: 800px) {
+  /* styles for browsers larger than 960px; */
+  .wrapper {
+    background-image: url("https://images.unsplash.com/photo-1478098711619-5ab0b478d6e6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib&q=80&w=1200");
+    background-size: auto;
+    background-position-x: 75%;
+  }
+
+  .title {
+    font-size: 192px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  /* styles for browsers larger than 1440px; */
+}
+@media only screen and (min-width: 2000px) {
+  /* for sumo sized (mac) screens */
+}
+@media only screen and (max-device-width: 480px) {
+ /* styles for mobile browsers smaller than 480px; (iPhone) */
+}
+@media only screen and (device-width: 768px) {
+ /* default iPad screens */
+}
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+/* For portrait layouts only */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+/* For landscape layouts only */
+}
+
+
+/*utilities*/
+
+.mt-5 {
+  margin-top: 2rem;
+}
+
+.mt-15 {
+  margin-top: 6rem;
+}
