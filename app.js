@@ -11,5 +11,5 @@ document.addEventListener("DOMContentLoaded", function(){
   getAdvice(rootContainer)
   setInterval(() => 
   getAdvice(rootContainer)
-  , 1000);  
+  , 8000);  
 });
