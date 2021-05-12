@@ -78,6 +78,10 @@
 }
 @media only screen and (device-width: 768px) {
  /* default iPad screens */
+ #root {
+ 
+  width: 620px;
+}
 }
 /* different techniques for iPad screening */
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
