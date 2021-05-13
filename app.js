@@ -9,8 +9,8 @@ const getAdvice = async (container) =>  {
 
 
 document.addEventListener("DOMContentLoaded", function(){
-  
   rootContainer = document.getElementById('root');
+  getAdvice(rootContainer)
   setInterval(() =>  getAdvice(rootContainer)
   , 6000);  
 });
