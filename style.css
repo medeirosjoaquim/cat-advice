@@ -18,6 +18,7 @@ header {
 header svg {
   fill: #aaa;
   height: 4rem;
+  z-index: 1;
 }
 
 .title {
