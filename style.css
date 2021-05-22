@@ -1,6 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap");
 @import url("./reset.css");
 
+body {
+  background-color: #000;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 4rem;
+  padding: 2rem;
+  background-color: transparent;
+  text-align: end;
+}
+
+header svg {
+  fill: #fafafa;
+  height: 4rem;
+}
+
 .title {
   padding-left: 2rem;
   width: 100%;
@@ -42,7 +60,7 @@
 
 
 #root {
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding: 0 2rem;
   height: 100px;
   color: ivory;
@@ -110,7 +128,7 @@
 }
 
 .mt-15 {
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 
 .overlay {
