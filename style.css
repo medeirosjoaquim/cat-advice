@@ -12,10 +12,11 @@ header {
   padding: 2rem;
   background-color: transparent;
   text-align: end;
+  z-index: 1;
 }
 
 header svg {
-  fill: #fafafa;
+  fill: #aaa;
   height: 4rem;
 }
 
